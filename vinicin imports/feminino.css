@@ -1,0 +1,289 @@
+img{
+  width:100%;
+  height: 200px;
+  display: inline;
+  border-radius: 10px;
+}
+
+   
+.logo{
+  width: 90px;
+  height: 90px;
+  display: inline;
+  margin-left: 6%;
+  margin-top: -3%;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.logo:hover{
+  transform: scale(1.2)
+}
+  
+  
+  .sobre{
+    margin-top: 10%;
+  }
+  
+  h1, h2{
+    color: #ffffff;
+    
+  }
+
+  h5{
+    color: #ffffff;
+  }
+  
+  body {
+    background-color:  #44A1A0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+  }
+
+  .feminina{
+    margin: 4%;
+  }
+
+  .aqui{
+    color: #f1f1f1;
+  }
+
+  /* camisas de time  */
+  
+  .vasco3{
+    background-color: #ffffff;
+    border-radius: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    width: 13%;
+    padding: 5px;
+    display: inline-block;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.vasco3:hover{
+  transform: scale(1.2)
+}
+  
+
+.cruzeiro{
+background-color: #ffffff;
+border-radius: 20px ;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+width: 13%;
+padding: 5px;
+display: inline-block;
+transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.cruzeiro:hover{
+transform: scale(1.2)
+}
+  
+
+.arsenal{
+background-color: #ffffff;
+border-radius: 20px ;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+width: 13%;
+padding: 5px;
+display: inline-block;
+transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.arsenal:hover{
+  transform: scale(1.2)
+}
+  
+ 
+.chelsea{
+  background-color: #ffffff;
+  border-radius: 20px ;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  width: 13%;
+  padding: 5px;
+  display: inline-block;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.chelsea:hover{
+  transform: scale(1.2)
+}
+
+
+  .real2{
+    background-color: #ffffff;
+    border-radius: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    width: 13%;
+    padding: 5px;
+    display: inline-block;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.real2:hover{
+  transform: scale(1.2)
+}
+  
+
+  .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+  
+  
+  .botao{
+    border-radius: 4px;
+    margin-left: -5%;
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 12px;
+    color: rgb(241, 241, 241);
+    background-color: rgb(5, 3, 3);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    cursor: pointer;
+    display: inline;
+  }
+  
+  .botao:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
+    transform: scale(1.2)
+  }
+  
+  
+  #barra{
+    width: 10%;
+    height: 34px;
+    margin-left: 79%;
+    cursor:auto;
+    outline: none;
+    border: 20px;
+    margin-top: 1%;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  
+  #barra:hover{
+    transform: scale(1.2)
+  
+  }
+  .tudo{
+    text-align: center;
+  }
+
+  footer{
+  color: #ffffff;
+  }
+
+  .cima{
+    display: flex;
+  }
+  
+
+  /* login */
+
+  form{
+    background-color: rgba(0, 0, 0, 0.8);
+    position:fixed;
+    padding: 5px 40px 20px;
+    width: 20%;
+    margin-top: 10%;
+    border-radius: 10px;
+    margin-left: 36%;
+    display: none ;
+  }
+  
+  .login{
+    cursor: pointer;
+  }
+  
+  form input{
+    width: 100%;
+    padding: 10px 10px;
+    border: solid rgb(221, 221, 221);
+    outline: none;
+    border-radius: 10px;
+    margin: 0px 0px 10px;
+  }
+  form h1{
+    color: rgb(255, 255, 255);
+    text-decoration: underline rgb(33, 185, 185);
+    text-align: center;
+    font-family: 'verdana';
+  }
+  .btn-button{
+    width: 40%;
+    margin-left: 30%;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  
+  .btn-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1)
+  }
+  form input:focus{
+    border:solid #ffffff 3px;
+  }
+  #sair{
+    color: white;
+    font-size: 45px;
+    margin-left: 90%;
+  }
+  #sair:hover{
+    color:rgb(255, 255, 255);
+    transition: 0.4s;
+    cursor: pointer;
+  
+  }
+
+  .sobre{
+    margin-top: 10%;
+  }
+  
